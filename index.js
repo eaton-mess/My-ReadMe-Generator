@@ -63,6 +63,12 @@ function writeToFile(data) {
     );
 }
 
+// function to initialize program
+//writes the text to the markdown file
+function init() {
+    inquirer.prompt(questions)
+        .then((data) => writeToFile(data));
+}
 
 
 // function call to initialize program
