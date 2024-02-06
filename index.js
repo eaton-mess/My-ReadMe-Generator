@@ -4,48 +4,52 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
-const questions = [
-    {
-        type: "input",
-        name: "Title",
-        message: "What is the title of your project?",
-    },
-    {
-        type: "input",
-        name: "Description",
-        message: "Provide a short description of your project"
-    }
+const questions = [{
+    type: 'input',
+    message: 'Project Title:',
+    name: 'title'
+},
 {
-        type: "input",
-        name: "Installation",
-        message: "How do users install your application?",
-    }
+    type: 'input',
+    message: 'Description:',
+    name: 'description'
+},
 {
-        type: "input",
-        name: "Usage",
-        message: "Describe the Usage of your applicaiton:",
-    }
+    type: 'input',
+    message: 'Installation:',
+    name: 'installation'
+},
 {
-        type: "list",
-        name: "License",
-        message: "Choose a license for your project:",
-        choices: ["MIT", "GNU GPLv3", "Apache 2.0", "ISC", "None"]
-    }
+    type: 'input',
+    message: 'Usage:',
+    name: 'usage'
+},
 {
-        type: "input",
-        name: "Contributing",
-        message: "Input the contributing users",
-    }
+    type: 'list',
+    message: 'License:',
+    name: 'license',
+    choices: ['MIT', 'Apache 2.0', 'GNU General Public v2.0']
+},
 {
-        type: "input",
-        name: "Tests",
-        message: "n/a",
-    }
+    type: 'input',
+    message: 'Contributing:',
+    name: 'contributing'
+},
 {
-        type: "input",
-        name: "Questions",
-        message: "n/a",
-    }
+    type: 'input',
+    message: 'Tests:',
+    name: 'tests'
+},
+{
+    type: 'input',
+    message: 'Github username:',
+    name: 'username'
+},
+{
+    type: 'input',
+    message: 'Email address:',
+    name: 'email'
+}
 ];
 
 // function to write README file
