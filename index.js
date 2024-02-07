@@ -59,7 +59,7 @@ function writeToFile(data) {
     generateMarkdown(data);
 
     // the readme file will be placed in the output folder in markdown format. An error will be thrown when unsuccessful, or alternatively 'Success' will be console.logged when it is successful
-    fs.writeFile(`./output/README.md`, markdownData, (err) => err ? console.error(err) : console.log('Success!')
+    fs.writeFile(`./output/Your_README.md`, markdownData, (err) => err ? console.error(err) : console.log('Success!')
     );
 }
 
