@@ -4,9 +4,11 @@
 
 This application utilises node.js to allow the user to generate their own ReadMe for personal or group projects in markdown formnat, all without the use of a browser. The inquirer package is used to present the user with a number of questions which will then populate the empty sections lined out by the utils file, and thus a brand new ReadMe is created!
 
-A video detailing the usage can be found here!
+A video detailing the usage can be found here! Alternatively if you prefer, there is a gif available below.
 https://drive.google.com/file/d/1a8xH8ulzmXJYFYIghaVq8oOwX_GE6eep/view
 
+The ReadMe generated from the example video above can be found here: 
+https://github.com/eatontechnology/My-ReadMe-Generator/blob/main/output/Your_README.md
 
 ## Table of Contents 
 
@@ -17,6 +19,8 @@ https://drive.google.com/file/d/1a8xH8ulzmXJYFYIghaVq8oOwX_GE6eep/view
 ## Usage 
 
 Using node.js and specifically the inquirer package, this ReadMe generator allows the user to create a markdown file with all the relevant sections they would need and conveniently places then into the output folder, where all the information they wanted can now be found. Using command line applciations and therefore reducing/eliminating the need for a browser, this allows the user to make all their project-based decisions in one place.
+
+![alt text](https://github.com/eatontechnology/My-ReadMe-Generator/blob/main/assets/Node.js%20Demonstration%2C%20ReadMe%20Generator.gif)
 
 ## Author
 
