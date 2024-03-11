@@ -25,7 +25,7 @@ Using node.js and specifically the inquirer package, this ReadMe generator allow
 ## Author
 
 Lauren Eaton
-https://github.com/eatontechnology
+https://github.com/eaton-mess
 
 ## License
 
